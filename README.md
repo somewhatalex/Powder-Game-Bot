@@ -25,4 +25,4 @@ npm i axios cheerio discord.js request
 ```
 
 ⚠IMPORTANT⚠:
-You'll have to create a `.env` file and add an environment variable `token` that has your bot token. You may have to install the `dotenv` package as well to load in the environment variable if necessary. If so, you'll also have to add `require("dotenv").config()` somewhere in the top of the program (where all the other packages are being required).
+You'll have to create a `.env` file and add an environment variable `token` that has your bot token. You may have to install the `dotenv` package as well to load in the environment variable if necessary. If so, you'll also have to add `require("dotenv").config()` somewhere in the top of the program (where all the other packages are being required). You might also have to tweak the file paths in `getUser.js` to get the distribution graphs to save properly.
