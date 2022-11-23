@@ -2,8 +2,6 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const prefix = "!";
 const { Permissions } = require('discord.js');
-const keepAlive = require("./server");
-
 const getStats = require("./getUser");
 
 
@@ -136,6 +134,4 @@ client.on("message", function(message) {
   }
 });
 
-
-keepAlive()
 client.login(process.env.token);
