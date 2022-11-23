@@ -1,5 +1,8 @@
 # Powder Game Bot
 Stats bot and built-in web scraper for the Powder Games. This bot can extract stats from both Powder Game and Powder Game 2.
+
+---
+
 <p align="center">
   <img src="pg-logo.png" height="200px" width="200px" align="center"></img>
 </p>
@@ -13,6 +16,8 @@ user [pg/pg2] [username] | Get stats for a user.
 ping | Gets ping.
 stats | Returns bot stats.
 help | Shows help messages and list of commands
+
+---
 
 The required packages can be installed with this command (given you have Node.js and NPM installed):
 ```
